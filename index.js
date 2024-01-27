@@ -1,3 +1,6 @@
+document.getElementById("menu-icon").addEventListener("click", function () {
+    document.querySelector("#nav ul").classList.toggle("active");
+  });
 let popup = document.querySelector(".popup");
 let login = document.getElementById("btn");
 
